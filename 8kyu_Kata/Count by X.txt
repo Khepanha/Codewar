@@ -1,0 +1,11 @@
+def count_by(x, n):
+    arr = []
+    i = 1
+    j = x
+    while True:
+      i += 1
+      arr.append(x)
+      x += j
+      if i == n+1:
+          break
+    return arr
